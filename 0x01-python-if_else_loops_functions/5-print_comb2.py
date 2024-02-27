@@ -6,4 +6,4 @@ for i in range (0, 100):
     elif (i >= 10) and (i != 100):
         print("{}{}".format(i, (', ')), end = " ")
     elif (i == 100):
-        print("{}".format(i))
+        print("{}".format(i), end="\n")
